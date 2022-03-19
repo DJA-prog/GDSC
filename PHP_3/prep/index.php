@@ -10,7 +10,7 @@
       <!-- "multipart/form-data"	 This value is necessary if the user will upload a file through the form -->
       <input type="file" name="upload_file" required> <!-- single file upload -->
       <!-- <input type="file" name="upload_file[]" required multiple> multiple file upload -->
-      <input type="submit" name="submit" value="Upload">
+      <input type="submit" name="sumbit" value="Upload">
     </form>
   </body>
 </html>

@@ -1,4 +1,6 @@
 <?php
+  print_r($_GET); // print the array called $file
+  exit;
   //get values
   $value1 = $_GET["value1"]; //6
   $value2 = $_GET["value2"]; //3
