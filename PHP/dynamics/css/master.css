@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+
+header{
+  display: flex;
+  border-bottom: 2px solid black;
+}
+header ul{
+  list-style-type: none;
+  display: flex;
+}
+header li{
+  margin: 4px 10px;
+}
+header a{
+  text-decoration: none;
+  border: 2px outset black;
+  padding:4px;
+  border-radius: 5px;
+}
+header a:hover{
+  background-color: lime;
+}
+header a:active{
+  border: 2px inset black;
+}
