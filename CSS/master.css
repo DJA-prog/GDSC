@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  background-color: grey;
+}
+
+header{
+  background-color: lime;
+  min-height: 100px;
+}
+
+.menu{
+  background-color: green;
+  width: 50px;
+  height: 60px;
+}
