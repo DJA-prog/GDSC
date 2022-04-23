@@ -1,0 +1,37 @@
+.centering{
+  width: 300px;
+  height: 100px;
+  top: calc(50% - 50px);
+  left: calc(50% - 150px);
+  position: absolute;
+  border-radius: 10px;
+  background-color: hsla(16, 100%, 47%, 0.5);
+}
+
+.upload_form{
+  text-align: center;
+}
+
+.upload_form table{
+  text-align: left;
+}
+
+.upload_form input{
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.upload_form button{
+  border-radius: 5px;
+  border: 2px outset red;
+  text-transform: uppercase;
+  background-color: hsla(334, 100%, 47%, 1);
+  padding: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.upload_form button:active{
+  border: 2px inset blue;
+}

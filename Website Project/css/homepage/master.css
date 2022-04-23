@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  font-weight: bold;
+  background-image: url("./img/background.jpg");
+}
+
+header{
+  display: flex;
+  background-color: hsla(170, 100%, 47%, 0.8);
+  max-height: 100px;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.header_logo, .header_menu{
+  margin: auto 0;
+  display: flex;
+}
+
+.header_logo img{
+  height: 60px;
+  background-color: hsla(334, 100%, 47%, 1);
+  border-radius: 10px;
+}
+
+.header_logo h2{
+  margin: auto auto;
+  font-weight: bold;
+}
+
+.header_menu ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.header_menu a{
+  background-color: hsla(334, 100%, 47%, 1);
+  padding: 5px;
+  color: black;
+  margin: auto 10px;
+  border-radius: 5px;
+  border: 2px outset red;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header_menu a:active{
+  border: 2px inset blue;
+}
+
+main{
+  margin: 15px;
+}
+
+.contents{
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+}
+
+.dirBox{
+  text-decoration: none;
+  color: white;
+  background-color: navy;
+  border-radius: 10px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+.dirBox img{
+  width: 60px;
+  height: 60px;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+.fileBox{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+.fileBox img{
+  width: 60px;
+  height: 60px;
+  background-color: lightblue;
+  border-radius: 5px;
+}
